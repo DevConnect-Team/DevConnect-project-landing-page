@@ -8,12 +8,78 @@
     <link rel="stylesheet" href="./assets/styles/seccion-membresia.css">
 </head>
 <body>
+    <div class="progress-bar">
+        <div id="progress" class="progress"></div>
+    </div>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="./main-page.html">
+                    <img src="./assets/images/logo_edit.png" alt="logo">
+                </a>
+            </div>
+    
+            <ul class="links">
+                <li><a href="#proyectos">Proyectos <br>destacados</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#membresia">Membresia</a></li>
+                <li><a href="#preguntas">Preguntas <br>frecuentes</a></li>
+                <a href="https://webmasterupcapp.netlify.app" target="_blank">
+                    <button class="primary-button">Ingresar</button>
+                 </a>
+            </ul>
+            <div class="toggle_btn"><i class="fa-solid fa-bars"></i></div>
+        </div>
+    
+        <div class="dropdown_menu">
+            <ul>
+                <li><a href="#proyectos">Proyectos <br>destacados</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#membresia">Membresia</a></li>
+                <li><a href="#preguntas">Preguntas <br>frecuentes</a></li>
+                <li><a href="https://webmasterupcapp.netlify.app" target="_blank">
+                    <button class="primary-button">
+                        Ingresar
+                    </button>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header> 
+    <script src="assets/scripts/index.js"></script>
+    <main>
+    <!--Seccion hero-->
+    <div class="container-fluid seccion-hero" >
+        <div class="row h-100">
+            <div class="col animated-text">
+                <h1 class="animated-text">
+                    La plataforma para tus <br>
+                    <span class="text">sueños digitales</span>
+                </h1>
+    
+                <h4 class="hero-description">
+                    Tu puente entre empresas y desarrolladores. Encuentra el talento que necesitas para 
+                    impulsar tus proyectos digitales
+                </h4>
+    
+                <div class="text-center">
+                    <a href="https://webmasterupcapp.netlify.app">
+                    <button type="button" class="btn btn-primary btn-lg button-hero">Accede</button>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="col d-flex justify-content-center align-items-center">
+                <img src="./assets/images/img-articulo 1.png" alt="imagen hero" class="img-fluid">
+            </div>
+        </div>
+    </div>
     <section class="main-page-second-article">
         <div class="article-tittle">
             <h3 class="main-page-subtitle-article">Tu sitio web en un solo lugar</h3>
         </div>
         <div class="article-description">
-            <p>En From Zero, te proporcionamos todas las herramientas y servicios necesarios para que no requieras buscar en ningún otro lugar a la hora de crear tu página web. No solo ofrecemos estos servicios, sino que también nos centramos en garantizar su eficiencia y rapidez.</p>
+            <p>DevConnect es más que una plataforma de encuentro entre empresas y desarrolladores freelance. Es una herramienta poderosa que simplifica el proceso de encontrar talento y llevar tus proyectos digitales al siguiente nivel</p>
         </div>
         <div class="second-article-part-3">
             <div class="second-article-part-3-images">
@@ -45,7 +111,7 @@
                 <h3 class="main-page-subtitle-article">Proyectos destacados</h3>
             </div>
             <div class="featuresprojects-description">
-                <p>Descubre los proyectos más emocionantes y exitosos realizados a través de WebMaster. Desde sitios web elegantes hasta aplicaciones móviles innovadoras, encuentra inspiración y talento en nuestra comunidad.</p>
+                <p>Descubre los proyectos más emocionantes y exitosos realizados a través de DevConnect. Desde sitios web elegantes hasta aplicaciones móviles innovadoras, encuentra inspiración y talento en nuestra comunidad.</p>
             </div>
             <div class="featuresprojects-examples">
                  <div class="arrow" onclick="previousImage()">
@@ -67,7 +133,7 @@
         <div class="feedback">
             <div class="feedback-card">
                 <div class="feedback-text">
-                    <p>WebMaster ha sido una gran herramienta para encontrar proyectos interesantes y clientes potenciales. La plataforma es fácil de navegar y me ha conectado con empresas que necesitan mis habilidades de desarrollo.</p>
+                    <p>DevConnect ha sido una gran herramienta para encontrar proyectos interesantes y clientes potenciales. La plataforma es fácil de navegar y me ha conectado con empresas que necesitan mis habilidades de desarrollo.</p>
                 </div>
                 <div class="client-profile">
                     <div>
@@ -281,7 +347,143 @@
             </div>
         </div>
     </div>
+     <!--Seccion Empresarios-->
+     <div class="d-flex justify-content-center align-items-center space-up">
+        <h1>Membresia-Empresario</h1>
+    </div>
+    <div class="d-flex justify-content-center align-items-center ">
+        <div class="row row-cols-1 row-cols-md-2 g-4 space-down  ">
+            <div class="col">
+                <h1 class="text-title-plans">Free</h1>
+                <div class="card h-100">
+                    <div class="text-center seccion-up">
+                        <h1 class="text-price">S/.0</h1>
+                        <h2 class="text-date">Pago Mensual</h2>
+                        <button type="button" class="btn btn-primary btn-lg button-suscribe">Suscribirse</button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Beneficios</h5>
+                        <p class="card-text">
+                            <ul>
+                                <li>
+                                    <i class="bi bi-check-circle morado-oscuro"> Maximo un proyecto terminado</i>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle morado-oscuro"> Limite de 5 personas postulados al proyecto</i>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle morado-oscuro"> No puede ver los portafolios de los desarrolladores </i>
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h1 class="text-title-plans">Premium</h1>
+                <div class="card h-100">
+                    <div class="text-center seccion-up">
+                        <h1 class="text-price">S/.50</h1>
+                        <h2 class="text-date">Pago Mensual</h2>
+                        <button type="button" class="btn btn-primary btn-lg button-suscribe">Suscribirse</button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Beneficios</h5>
+                        <p class="card-text">
+                            <ul>
+                                <li>
+                                    <i class="bi bi-check-circle morado-oscuro"> Proyectos infinitos</i>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle morado-oscuro"> Postulantes ilimitados</i>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle morado-oscuro"> Mayor visibilidad de los proyectos</i>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle morado-oscuro"> Soporte prioritario</i>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle morado-oscuro"> Puede calificar desarrolladores</i>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle morado-oscuro"> Puede ver los portafolios de los desarrolladores</i>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle morado-oscuro"> Verificado</i>
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
+<div class="container-preguntas" id="preguntas">
+
+    <img class="pf-img" src="./assets/images/preguntas-frecuentes-img.png">
+    
+    <div class="preguntas">
+       
+        <h2 class="pf-text">Preguntas frecuentes</h2>
+        
+        <div class="acordeon">
+
+            <div class="bloque">
+                <h2 class="h2">¿Qué tipos de proyectos puedo publicar?</h2>
+                <p class="contenido">En WebMaster puedes publicar una amplia variedad de proyectos, desde la creación de sitios 
+                web dinámicos, aplicaciones móviles e incluso proyectos con software para escritorio.</p>
+            </div>
+
+            <div class="bloque">
+                <h2 class="h2">¿Cómo publico un proyecto en WebMaster?</h2>
+                <p class="contenido">Dirigete a la barra de navegación en la parte superior de la pantalla
+                    y dale click a la opción "Publicar Proyecto". Detalla con claridad los requerimientos del trabajo.</p>
+            </div>
+
+            <div class="bloque">
+                <h2 class="h2">¿Cómo selecciono desarrollador adecuado?</h2>
+                <p class="contenido">Explora perfiles en WebMaster con experiencia relevante a tu proyecto y revisa las 
+                    calificaciones de clientes anteriores para contactar a tu desarrollador ideal.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+    
+</div>
+</main>
+
+<footer class="footer">
+<div class="footer-listas">
+    <div class="logo">
+        <img src="./assets/images/logo_edit_title.png" alt="logo">
+    </div>
+</div>
+<div class="footer-listas">
+    <h3 class="footer-navegacion">Navegacion</h3>
+    <ul>
+        <li><a href="">Inicio</a></li>
+        <li><a href="About.html">Sobre nosotros</a></li>
+    </ul>
+</div>
+<div class="footer-listas">
+    <h3 class="footer-cuenta">Cuenta</h3>
+    <ul>
+        <li><a href="">Mi cuenta</a></li>
+        <li><a href="">Crear cuenta</a></li>
+    </ul>
+</div>
+<div class="footer-listas">
+    <h3 class="footer-contactanos">Contactanos</h3>
+    <ul>
+        <li><a href="https://webmasterupcapp.netlify.app" target="_blank">Servicio al cliente</a></li>
+    </ul>
+</div>
+</footer>
     
 </body>
 </html>
