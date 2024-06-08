@@ -1,7 +1,7 @@
 :root {
     --white: #FFFFFF;
     --black: #000000;   
-    --btn-color-blue:#3554BC;
+    --btn-color-blue:#02746e;
     --hover-sky-blue: #48E6EA;
     --very-light-blue: #DAF0FD;
     --very-light-purple: #D9C9ED;
@@ -117,7 +117,7 @@ li a{
 /*Estilos de la Pagina*/
 
 .sobre-nosotros{
-    background-image: url(../images/about_background.jpeg);
+    background-color: rgba(16, 71, 64, 0.63); 
     background-size: cover;
     background-position: center;
     color: white;
@@ -127,6 +127,7 @@ li a{
     grid-auto-rows: minmax(100px, auto);
     padding: 0 5vw 5vw 5vw;
 }
+
 
 .sobre-nosotros h2{
     grid-column: 1 / 5;
@@ -209,7 +210,7 @@ svg:hover{
 }
 
 .highlight{
-    background-image: url(../images/Highlight_img.png);
+    background-color: rgba(16, 71, 64, 0.63);
     background-size: cover;
     background-position: center;
     display: grid;
