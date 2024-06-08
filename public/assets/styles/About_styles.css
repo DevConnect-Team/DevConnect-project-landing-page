@@ -117,7 +117,7 @@ li a{
 /*Estilos de la Pagina*/
 
 .sobre-nosotros{
-    background-image: url(../images/about_background.jpeg);
+    background-image: linear-gradient(180deg, #2E615E 0%, #499995 100%,#74C9C4);
     background-size: cover;
     background-position: center;
     color: white;
@@ -209,7 +209,7 @@ svg:hover{
 }
 
 .highlight{
-    background-image: url(../images/Highlight_img.png);
+    background-image: linear-gradient(180deg, #2E615E 0%, #499995 100%,#74C9C4);
     background-size: cover;
     background-position: center;
     display: grid;
