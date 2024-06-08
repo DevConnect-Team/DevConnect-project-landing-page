@@ -7,6 +7,7 @@
     --very-light-purple: #D9C9ED;
     --very-light-pinkl:#d8d8d8;
     --very-ligh-gray:#333333;
+    background-image: linear-gradient(180deg, #2E615E 0%, #499995 100%,#74C9C4);
     --sm: 14px;
     --md: 16px;
     --lg: 18px;
@@ -32,6 +33,7 @@ body {
     padding: 70px;
     border: solid 1px var(--black);
     border-radius: 40px;
+    background-color: var(--white);
 }
 .form-container a{
     justify-self: center;
