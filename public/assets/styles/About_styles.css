@@ -238,3 +238,68 @@ svg:hover{
     grid-column: 4/6;
 }
 
+@media only screen and (max-width: 1000px){
+    .highlight{
+        display: block;
+        padding: 10vw;
+    }
+    
+    .highlight h2{
+        text-align: center;
+        margin: auto 0;
+    }
+    
+    .highlight h3{
+        margin-top: 1rem;
+    }
+    
+    
+    .highlight p{
+        margin-top: 1rem;
+    }
+    
+}
+
+/*Estilos del Footer*/
+.footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 2px;
+    gap: 30px;
+    background-color: #F8F8F8;
+}
+.footer .logo{
+    cursor: pointer;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.footer .logo img{
+    height: 150px;
+    width: 150px;
+    transition: all 0.3s;;
+}
+.footer-listas{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.footer-listas h3{
+    color:#262626;
+    font-family: 'Poppins';
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.footer .logo img:hover{
+    transform: scale(1.2);
+}
+.footer ul li{
+    list-style: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.footer ul li a{
+    text-decoration: none;
+    font-family: 'Open Sans';
+    color: #545c5a;
+}
