@@ -1,0 +1,21 @@
+{
+  "name": "devconnect-project-landing-page",
+  "version": "1.0.0",
+  "description": "Somos una startup conocida como **DevConnect**, fundada en 2024 por cinco apasionados estudiantes de la Universidad Peruana de Ciencias Aplicadas. La inspiración detrás de nuestra startup surgió de la creciente demanda de las empresas por contar con soluciones digitales personalizadas y la necesidad de desarrolladores freelance en busca de proyectos estimulantes para aplicar sus habilidades y generar ingresos. Nos dimos cuenta de que había un espacio para conectar estas dos necesidades y así nació DevConnect.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd public && node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "firebase-functions": "^5.0.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.10.1"
+  }
+}
