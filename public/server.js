@@ -11,13 +11,12 @@ app.use(bodyParser.json());
 
 // Configuración de la base de datos
 const db = mysql.createConnection({
-    host: process.env.DB_HOST || 'localhost',
-    user: process.env.DB_USER || 'root',
-    password: process.env.DB_PASSWORD || '12345678',
-    database: process.env.DB_NAME || 'devconnectdb',
-    port: process.env.DB_PORT || 3306
+    host: 'monorail.proxy.rlwy.net',
+    user: 'root',
+    password: 'yBPMBbvnMBCUEMozDOlkjbpsWnmEbuyP', // Reemplaza con la contraseña real
+    database: 'devconnectDB',
+    port: 39443
 });
-
 
 app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'assets')));
