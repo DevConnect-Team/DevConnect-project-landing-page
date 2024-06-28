@@ -517,78 +517,61 @@ header {
         height: 7.5em;
     }
 }
-.clients-feedback{
-    margin-bottom: 2rem;
-}
-.subtitle-about-us{
-    font-family: 'Poppins';
-    text-align: center;
-    color: #404040;
-    margin-top: 2rem;
-}
-
-.testimony-container{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-}
-
-.feedback{
-    justify-content: space-around;
+/* CLIENTS FEEDBACK */
+.clients-feedback {
     display: flex;
-    width: 100%;
+    flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
-    padding: 40px;
+    padding: 5rem 10%;
 }
 
-.feedback-card p{
-    margin: 0;
+.feedback {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
 }
-.feedback .feedback-card{
-    width: 32vh;
-    height: 45vh;
-    background-color: #D9D9D9;
+
+.feedback-card {
+    width: 30%;
+    background: var(--very-light-purple);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-card .feedback-text {
+    margin-bottom: 1rem;
+    color: var(--very-ligh-gray);
+}
+
+.client-profile {
+    display: flex;
+    align-items: center;
+}
+
+.client-profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.client-profile .name-profile {
     color: var(--black);
-    font-family: 'Open Sans';
-    font-size: 18px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin:1rem 3rem;
-}
-.feedback-card .feedback-text{
-    font-family: 'Open Sans';
-    font-size: 18px;
-    height: 82%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 25px 25px 0 25px;
-}
-.client-profile{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    align-items: center;
-    background-color: #F8F8F8;
-    padding: 10px 0;
-}
-.client-profile img{
-    height: 60px;
-    width: 60px;
 }
 
-.client-img img{
-    height: 70px;
-    width: 70px;
-    filter:drop-shadow(rgba(0, 0, 0, 0.183) 2px 2px 2px)
+/* Responsive adjustments for the feedback section */
+@media (max-width: 992px) {
+    .feedback {
+        flex-direction: column;
+        align-items: center;
+    }
+    .feedback-card {
+        width: 80%;
+        margin-bottom: 2rem;
+    }
 }
-
 .stars{
-    margin:0.5rem;
+    margin-left: auto;
     color: #FFD43B
 }
